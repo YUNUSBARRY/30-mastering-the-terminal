@@ -47,4 +47,6 @@ class Pet {
   const catTalk = new Cat("Tilson", 14, 'Yunus Barry');
   
   console.log(dogTalk.bark());
-  console.log(catTalk.meow());  
+  console.log(catTalk.meow()); 
+
+console.log(dogTalk.name, 'and', catTalk.name, 'are best buddies')
