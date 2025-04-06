@@ -44,12 +44,16 @@ class Pet {
   }
   
   const dogTalk = new Dog("Tilson", 14);
-  const catTalk = new Cat("Tilson", 14, 'Yunus Barry');
+  const catTalk = new Cat("Hunnsa", 14, 'Yunus Barry');
   
   console.log(dogTalk.bark());
   console.log(catTalk.meow()); 
 
 console.log(dogTalk.name, 'and', catTalk.name, 'are best buddies')
 
-// I am a new line added from the vs code
-// Winning team
+const person = {
+  name: 'Yunus Barry',
+  age: 29,
+  job: 'Engineer',
+  country: 'Guinea'
+}
